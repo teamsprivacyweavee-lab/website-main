@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#fff1f2" />
+  
+  <!-- Retail Circle -->
+  <circle cx="200" cy="150" r="100" fill="#fee2e2" />
+  
+  <!-- Shopping Bag -->
+  <path d="M160,110 L240,110 L250,220 L150,220 Z" fill="#fca5a5" />
+  <path d="M175,110 L175,90 C175,80 185,70 200,70 C215,70 225,80 225,90 L225,110" stroke="#ef4444" stroke-width="6" fill="none" />
+  
+  <!-- Security Shield -->
+  <path d="M200,85 L245,105 C245,150 230,190 200,210 C170,190 155,150 155,105 L200,85" fill="none" stroke="#b91c1c" stroke-width="4" />
+  
+  <!-- Lock -->
+  <rect x="185" y="125" width="30" height="40" rx="4" fill="#b91c1c" />
+  <circle cx="200" cy="125" r="12" fill="#b91c1c" />
+  <circle cx="200" cy="137" r="4" fill="white" />
+  <rect x="198" y="137" width="4" height="15" fill="white" />
+  
+  <!-- Barcode -->
+  <rect x="170" y="160" width="3" height="40" fill="#ef4444" />
+  <rect x="175" y="160" width="2" height="40" fill="#ef4444" />
+  <rect x="180" y="160" width="5" height="40" fill="#ef4444" />
+  <rect x="190" y="160" width="1" height="40" fill="#ef4444" />
+  <rect x="195" y="160" width="4" height="40" fill="#ef4444" />
+  <rect x="202" y="160" width="3" height="40" fill="#ef4444" />
+  <rect x="208" y="160" width="2" height="40" fill="#ef4444" />
+  <rect x="212" y="160" width="5" height="40" fill="#ef4444" />
+  <rect x="220" y="160" width="4" height="40" fill="#ef4444" />
+  <rect x="226" y="160" width="2" height="40" fill="#ef4444" />
+  
+  <!-- Retail Icons -->
+  <circle cx="130" cy="110" r="15" fill="#fca5a5" />
+  <path d="M125,110 L135,110 M130,105 L130,115" stroke="#b91c1c" stroke-width="2" />
+  
+  <circle cx="270" cy="110" r="15" fill="#fca5a5" />
+  <path d="M265,108 L275,108 M265,113 L275,113" stroke="#b91c1c" stroke-width="2" />
+  
+  <!-- Credit Card -->
+  <rect x="120" y="170" width="50" height="30" rx="3" fill="#fca5a5" />
+  <rect x="125" y="180" width="30" height="5" fill="#b91c1c" />
+  <circle cx="160" cy="185" r="5" fill="#b91c1c" />
+  
+  <!-- Receipt -->
+  <rect x="240" y="175" width="30" height="40" fill="white" stroke="#b91c1c" stroke-width="1" />
+  <line x1="245" y1="185" x2="265" y2="185" stroke="#b91c1c" stroke-width="1" />
+  <line x1="245" y1="190" x2="265" y2="190" stroke="#b91c1c" stroke-width="1" />
+  <line x1="245" y1="195" x2="265" y2="195" stroke="#b91c1c" stroke-width="1" />
+  <line x1="245" y1="200" x2="255" y2="200" stroke="#b91c1c" stroke-width="1" />
+  
+  <!-- Data Flow -->
+  <path d="M130,230 C160,250 240,250 270,230" stroke="#ef4444" stroke-width="3" stroke-dasharray="6 3" fill="none" />
+  <path d="M130,240 C160,260 240,260 270,240" stroke="#ef4444" stroke-width="2" stroke-dasharray="4 2" fill="none" />
+  <path d="M130,250 C160,270 240,270 270,250" stroke="#ef4444" stroke-width="1" stroke-dasharray="3 1" fill="none" />
+</svg>

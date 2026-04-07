@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 30% 98%;
+    /* #FDFAF6 Clean light background */
+    --foreground: 0 0% 20%;
+    /* #333333 Dark Gray text */
+    --heading: 223 70% 23%;
+    /* #0F2167 Deep Blue for headings */
+    --accent: 213 66% 57%;
+    /* #578FCA Blue for CTAs */
+    --accent-light: 213 66% 67%;
+    /* Lighter version of accent */
+    --primary-light: 213 66% 67%;
+    /* Lighter blue */
+    --primary-dark: 210 100% 30%;
+    /* Darker blue */
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-sans antialiased bg-[#FDFAF6] text-[#578FCA];
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    letter-spacing: -0.01em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-sans tracking-tight text-[#0F2167];
+    letter-spacing: -0.02em;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold;
+    line-height: 1.1;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-bold;
+    line-height: 1.2;
+  }
+
+  h3 {
+    @apply text-2xl font-bold;
+    line-height: 1.3;
+  }
+
+  p {
+    @apply text-[#578FCA] text-opacity-90;
+    line-height: 1.6;
+  }
+
+  /* Background classes */
+  .bg-soft-beige {
+    @apply bg-[#FDFAF6];
+  }
+
+  .bg-blue {
+    @apply bg-[#578FCA];
+  }
+
+  .bg-dark-blue {
+    @apply bg-[#2A5485];
+  }
+
+  .bg-light-blue {
+    @apply bg-[#78A9DA];
+  }
+
+  /* Text classes */
+  .text-dark-gray {
+    @apply text-[#333333];
+  }
+
+  .text-deep-blue {
+    @apply text-[#2A5485];
+  }
+
+  .text-blue {
+    @apply text-[#578FCA];
+  }
+
+  .text-dark-blue {
+    @apply text-[#2A5485];
+  }
+
+  /* Border classes */
+  .border-blue {
+    @apply border-[#578FCA];
+  }
+
+  .border-dark-blue {
+    @apply border-[#2A5485];
+  }
+
+  /* Accent colors */
+  .bg-accent {
+    @apply bg-[hsl(var(--accent))];
+  }
+
+  .bg-accent-light {
+    @apply bg-[hsl(var(--accent-light))];
+  }
+
+  .text-accent {
+    @apply text-[hsl(var(--accent))];
+  }
+
+  .border-accent {
+    @apply border-[hsl(var(--accent))];
+  }
+
+  /* Add subtle texture to beige backgrounds */
+  .bg-texture {
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='currentColor' fill-opacity='0.03' fill-rule='evenodd'/%3E%3C/svg%3E");
+  }
+
+  /* Common gradient styles */
+  .bg-gradient-primary {
+    @apply bg-gradient-to-r from-primary to-primary-dark;
+  }
+
+  .bg-gradient-primary-dark {
+    @apply bg-gradient-to-r from-primary-dark to-primary-darker;
+  }
+
+  .text-gradient-primary {
+    @apply bg-gradient-to-r from-primary-dark to-primary bg-clip-text text-transparent;
+  }
+
+  /* Animation utilities */
+  .hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-1;
+  }
+
+  .hover-scale {
+    @apply transition-transform duration-300 hover:scale-105;
+  }
+
+  /* Modern link styles */
+  .link-underline {
+    @apply relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full;
+  }
+
+  /* ===== Solar System ===== */
+  .sun-glow {
+    box-shadow: 0 0 0 12px rgba(58, 134, 255, 0.08), 0 0 50px 8px rgba(58, 134, 255, 0.25), inset 0 0 20px rgba(255, 255, 255, 0.4);
+    background: radial-gradient(circle at 30% 30%, #ffffff, #eaf1ff 60%, #dfe8ff 100%);
+  }
+
+  .orbit-ring {
+    @apply absolute left-1/2 top-1/2 rounded-full;
+    border: 2px solid #0a2c5a;
+    transform: translate(-50%, -50%);
+  }
+
+  .orbit-1 {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .orbit-2 {
+    width: 26rem;
+    height: 26rem;
+  }
+
+  .orbit-3 {
+    width: 34rem;
+    height: 34rem;
+  }
+
+  .orbit-4 {
+    width: 42rem;
+    height: 42rem;
+  }
+
+  .orbit-5 {
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .orbit-6 {
+    width: 58rem;
+    height: 58rem;
+  }
+
+  .planet-container {
+    @apply absolute left-1/2 top-1/2;
+    transform-origin: 0 0;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .planet-img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.15));
+  }
+
+  /* Radii place planet at orbit edge */
+  .radius-1 {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(5rem);
+  }
+
+  .radius-2 {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(6.25rem);
+  }
+
+  .radius-3 {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(7.5rem);
+  }
+
+  .radius-4 {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(8.75rem);
+  }
+
+  .radius-5 {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(10rem);
+  }
+
+  .radius-6 {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(11.25rem);
+  }
+
+  .radius-7 {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(12.5rem);
+  }
+
+  .radius-8 {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(13.75rem);
+  }
+
+  .radius-9 {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(15rem);
+  }
+
+  @keyframes spinOrbit {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .spin-fast {
+    animation-name: spinOrbit;
+    animation-duration: 10s;
+  }
+
+  .spin-medium {
+    animation-name: spinOrbit;
+    animation-duration: 16s;
+  }
+
+  .spin-slow {
+    animation-name: spinOrbit;
+    animation-duration: 22s;
+  }
+
+  .spin-slower {
+    animation-name: spinOrbit;
+    animation-duration: 28s;
+  }
+
+  .spin-slowest {
+    animation-name: spinOrbit;
+    animation-duration: 36s;
+  }
+
+  /* Orbits with individual wrappers to ensure clean rotation on each ring */
+  .orbit-spin {
+    @apply absolute left-1/2 top-1/2;
+    transform: translate(-50%, -50%);
+  }
+
+  .orbit-size-1 {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .orbit-size-2 {
+    width: 26rem;
+    height: 26rem;
+  }
+
+  .orbit-size-3 {
+    width: 34rem;
+    height: 34rem;
+  }
+
+  .orbit-size-4 {
+    width: 42rem;
+    height: 42rem;
+  }
+
+  .orbit-size-5 {
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .orbit-size-6 {
+    width: 0;
+    height: 0;
+  }
+
+  .orbit-size-7 {
+    width: 0;
+    height: 0;
+  }
+
+  .orbit-size-8 {
+    width: 0;
+    height: 0;
+  }
+
+  .orbit-size-9 {
+    width: 0;
+    height: 0;
+  }
+
+  .planet-at-edge {
+    @apply absolute top-1/2 -translate-y-1/2 right-0;
+  }
+
+  @keyframes orbitSpin {
+    from {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+  /* Counter-rotation so logos stay upright */
+  @keyframes counterSpin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+  .counter-fast {
+    animation: counterSpin 10s linear infinite;
+    transform-origin: center;
+  }
+
+  .counter-medium {
+    animation: counterSpin 16s linear infinite;
+    transform-origin: center;
+  }
+
+  .counter-slow {
+    animation: counterSpin 22s linear infinite;
+    transform-origin: center;
+  }
+
+  .counter-slower {
+    animation: counterSpin 28s linear infinite;
+    transform-origin: center;
+  }
+
+  .counter-slowest {
+    animation: counterSpin 36s linear infinite;
+    transform-origin: center;
+  }
+
+  .orbit-speed-fast {
+    animation: orbitSpin 10s linear infinite;
+  }
+
+  .orbit-speed-medium {
+    animation: orbitSpin 16s linear infinite;
+  }
+
+  .orbit-speed-slow {
+    animation: orbitSpin 22s linear infinite;
+  }
+
+  .orbit-speed-slower {
+    animation: orbitSpin 28s linear infinite;
+  }
+
+  .orbit-speed-slowest {
+    animation: orbitSpin 36s linear infinite;
+  }
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#ecfdf5" />
+  
+  <!-- Auto Circle -->
+  <circle cx="200" cy="150" r="100" fill="#d1fae5" />
+  
+  <!-- Car Shape -->
+  <path d="M130,170 L130,150 C130,140 140,130 155,130 L245,130 C260,130 270,140 270,150 L270,170" fill="#34d399" />
+  <rect x="120" y="170" width="160" height="30" rx="5" fill="#34d399" />
+  
+  <!-- Car Windows -->
+  <rect x="140" y="140" width="40" height="20" rx="3" fill="#ecfdf5" />
+  <rect x="190" y="140" width="40" height="20" rx="3" fill="#ecfdf5" />
+  <rect x="240" y="140" width="20" height="20" rx="3" fill="#ecfdf5" />
+  
+  <!-- Wheels -->
+  <circle cx="150" cy="200" r="15" fill="#064e3b" />
+  <circle cx="150" cy="200" r="7" fill="#d1fae5" />
+  <circle cx="250" cy="200" r="15" fill="#064e3b" />
+  <circle cx="250" cy="200" r="7" fill="#d1fae5" />
+  
+  <!-- Security Shield -->
+  <path d="M200,90 L240,110 C240,150 225,180 200,195 C175,180 160,150 160,110 L200,90" fill="none" stroke="#059669" stroke-width="4" />
+  
+  <!-- Lock -->
+  <rect x="185" y="120" width="30" height="40" rx="4" fill="#059669" />
+  <circle cx="200" cy="120" r="12" fill="#059669" />
+  <circle cx="200" cy="132" r="4" fill="white" />
+  <rect x="198" y="132" width="4" height="15" fill="white" />
+  
+  <!-- Signal Icons -->
+  <path d="M140,110 C150,100 160,100 170,110" stroke="#10b981" stroke-width="2" fill="none" />
+  <path d="M145,115 C150,110 155,110 160,115" stroke="#10b981" stroke-width="2" fill="none" />
+  <circle cx="155" cy="120" r="2" fill="#10b981" />
+  
+  <path d="M230,110 C240,100 250,100 260,110" stroke="#10b981" stroke-width="2" fill="none" />
+  <path d="M235,115 C240,110 245,110 250,115" stroke="#10b981" stroke-width="2" fill="none" />
+  <circle cx="245" cy="120" r="2" fill="#10b981" />
+  
+  <!-- GPS Screen -->
+  <rect x="180" y="155" width="40" height="25" rx="2" fill="#a7f3d0" stroke="#059669" stroke-width="1" />
+  <line x1="185" y1="162" x2="215" y2="162" stroke="#059669" stroke-width="1" />
+  <line x1="185" y1="168" x2="205" y2="168" stroke="#059669" stroke-width="1" />
+  <circle cx="200" cy="170" r="5" fill="#059669" />
+  
+  <!-- Data Flow -->
+  <path d="M130,230 C160,250 240,250 270,230" stroke="#10b981" stroke-width="3" stroke-dasharray="6 3" fill="none" />
+  <path d="M130,240 C160,260 240,260 270,240" stroke="#10b981" stroke-width="2" stroke-dasharray="4 2" fill="none" />
+  <path d="M130,250 C160,270 240,270 270,250" stroke="#10b981" stroke-width="1" stroke-dasharray="3 1" fill="none" />
+</svg>

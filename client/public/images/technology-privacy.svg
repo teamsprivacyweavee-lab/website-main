@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f5f3ff" />
+  
+  <!-- Tech Circle -->
+  <circle cx="200" cy="150" r="100" fill="#ede9fe" />
+  
+  <!-- Circuit Board Pattern -->
+  <path d="M120,120 L160,120 L160,140 L200,140 L200,180 L160,180 L160,220 L210,220" stroke="#7c3aed" stroke-width="3" fill="none" />
+  <path d="M210,220 L260,220 L260,180 L280,180 L280,120 L240,120 L240,160 L200,160" stroke="#7c3aed" stroke-width="3" fill="none" />
+  <path d="M130,160 L140,160 L140,200 L170,200" stroke="#7c3aed" stroke-width="3" fill="none" />
+  <path d="M230,140 L260,140 L260,100 L230,100" stroke="#7c3aed" stroke-width="3" fill="none" />
+  
+  <!-- Circuit Nodes -->
+  <circle cx="160" cy="120" r="6" fill="#8b5cf6" />
+  <circle cx="160" cy="180" r="6" fill="#8b5cf6" />
+  <circle cx="200" cy="140" r="6" fill="#8b5cf6" />
+  <circle cx="200" cy="160" r="6" fill="#8b5cf6" />
+  <circle cx="210" cy="220" r="6" fill="#8b5cf6" />
+  <circle cx="260" cy="180" r="6" fill="#8b5cf6" />
+  <circle cx="260" cy="140" r="6" fill="#8b5cf6" />
+  <circle cx="140" cy="160" r="6" fill="#8b5cf6" />
+  <circle cx="140" cy="200" r="6" fill="#8b5cf6" />
+  <circle cx="230" cy="140" r="6" fill="#8b5cf6" />
+  <circle cx="260" cy="100" r="6" fill="#8b5cf6" />
+  
+  <!-- Security Shield -->
+  <path d="M200,80 L240,100 C240,140 225,180 200,200 C175,180 160,140 160,100 L200,80" fill="none" stroke="#5b21b6" stroke-width="4" />
+  
+  <!-- Lock -->
+  <rect x="185" y="110" width="30" height="40" rx="4" fill="#5b21b6" />
+  <circle cx="200" cy="110" r="12" fill="#5b21b6" />
+  <circle cx="200" cy="122" r="4" fill="white" />
+  <rect x="198" y="122" width="4" height="15" fill="white" />
+  
+  <!-- Binary Code -->
+  <text x="120" y="90" font-family="monospace" font-size="12" fill="#5b21b6">10010110</text>
+  <text x="120" y="105" font-family="monospace" font-size="12" fill="#5b21b6">01101001</text>
+  <text x="250" y="250" font-family="monospace" font-size="12" fill="#5b21b6">11001010</text>
+  <text x="250" y="265" font-family="monospace" font-size="12" fill="#5b21b6">00110101</text>
+  
+  <!-- Data Flow -->
+  <path d="M130,240 C160,260 240,260 270,240" stroke="#7c3aed" stroke-width="3" stroke-dasharray="6 3" fill="none" />
+  <path d="M130,250 C160,270 240,270 270,250" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4 2" fill="none" />
+  <path d="M130,260 C160,280 240,280 270,260" stroke="#7c3aed" stroke-width="1" stroke-dasharray="3 1" fill="none" />
+</svg>
