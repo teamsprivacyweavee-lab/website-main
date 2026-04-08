@@ -43,7 +43,7 @@ const StopBreachesSection = () => {
                                     </div>
                                     <div>
                                         <h3 className="text-white font-semibold text-lg mb-2">Reach Out to Us</h3>
-                                        <p className="text-gray-300">teams@privacyweave.in</p>
+                                        <p className="text-gray-300">teamsprivacyweavee@gmail.com</p>
                                     </div>
                                 </div>
                             </div>

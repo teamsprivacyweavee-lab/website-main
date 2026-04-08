@@ -125,10 +125,10 @@ const ContactSection = () => {
                     <h4 className="font-semibold text-lg text-primary-dark">Email</h4>
                   </div>
                   <a
-                    href="mailto:teams@privacyweave.in"
+                    href="mailto:teamsprivacyweavee@gmail.com"
                     className="pl-14 hover:underline text-blue-700"
                   >
-                    teams@privacyweave.in
+                    teamsprivacyweavee@gmail.com
                   </a>
                 </div>
 

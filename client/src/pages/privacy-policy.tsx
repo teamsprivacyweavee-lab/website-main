@@ -138,8 +138,8 @@ const PrivacyPolicy = () => {
                                     Data on secure servers. Technical and organisational measures include measures to deal with any
                                     suspected data breach. If you suspect any misuse or loss, or unauthorised access to your Data,
                                     please let us know immediately by contacting us by email at{" "}
-                                    <a href="mailto:teams@privacyweave.in" className="text-blue-600 hover:underline">
-                                        teams@privacyweave.in
+                                    <a href="mailto:teamsprivacyweavee@gmail.com" className="text-blue-600 hover:underline">
+                                        teamsprivacyweavee@gmail.com
                                     </a>.
                                 </p>
                             </div>
@@ -247,8 +247,8 @@ const PrivacyPolicy = () => {
                                 <p className="text-gray-700">
                                     To request to review, update, or delete your personal information or to otherwise reach us, please
                                     submit a request by emailing us at{" "}
-                                    <a href="mailto:teams@privacyweave.in" className="text-blue-600 hover:underline">
-                                        teams@privacyweave.in
+                                    <a href="mailto:teamsprivacyweavee@gmail.com" className="text-blue-600 hover:underline">
+                                        teamsprivacyweavee@gmail.com
                                     </a>. We will respond to your request
                                     within 30 days.
                                 </p>
@@ -262,8 +262,8 @@ const PrivacyPolicy = () => {
                                 <div className="bg-gray-50 p-6 rounded-lg">
                                     <p className="text-gray-700 mb-2">
                                         <strong>Email:</strong>{" "}
-                                        <a href="mailto:teams@privacyweave.in" className="text-blue-600 hover:underline">
-                                            teams@privacyweave.in
+                                        <a href="mailto:teamsprivacyweavee@gmail.com" className="text-blue-600 hover:underline">
+                                            teamsprivacyweavee@gmail.com
                                         </a>
                                     </p>
                                     <p className="text-gray-700">

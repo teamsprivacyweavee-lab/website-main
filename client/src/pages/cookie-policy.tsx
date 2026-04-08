@@ -336,7 +336,7 @@ const CookiePolicy = () => {
                                             <strong>Phone:</strong> <a href="tel:+919087695972" className="text-blue-600 hover:underline">+91-9087695972</a>
                                         </p>
                                         <p>
-                                            <strong>Email:</strong> <a href="mailto:teams@privacyweave.in" className="text-blue-600 hover:underline">teams@privacyweave.in</a>
+                                            <strong>Email:</strong> <a href="mailto:teamsprivacyweavee@gmail.com" className="text-blue-600 hover:underline">teamsprivacyweavee@gmail.com</a>
                                         </p>
                                     </div>
                                 </CardContent>

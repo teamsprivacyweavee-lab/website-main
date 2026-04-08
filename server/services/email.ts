@@ -164,7 +164,7 @@ const getTransporter = () => {
 };
 
 // Recipients list from environment variables, fallback to defaults if not specified
-const defaultRecipients = ['teams@privacyweave.in'];
+const defaultRecipients = ['teamsprivacyweavee@gmail.com'];
 const getRecipients = (): string[] => {
   if (process.env.EMAIL_RECIPIENTS) {
     return process.env.EMAIL_RECIPIENTS.split(',').map(email => email.trim());
