@@ -26,7 +26,7 @@ const DataManagementSection = () => {
             Responsibly collect, govern, and use data
           </h2>
           <p className="text-lg text-neutral-dark max-w-3xl mx-auto">
-            PrivacyWeave's platform ensures secure and compliant handling of your organization's data
+            PrivacyWeavee's platform ensures secure and compliant handling of your organization's data
             throughout its lifecycle.
           </p>
         </motion.div>

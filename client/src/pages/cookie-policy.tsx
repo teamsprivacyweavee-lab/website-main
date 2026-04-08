@@ -72,7 +72,7 @@ const CookiePolicy = () => {
                             Cookie Policy
                         </h1>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            This Cookie Policy explains how PrivacyWeave uses cookies and similar technologies
+                            This Cookie Policy explains how PrivacyWeavee uses cookies and similar technologies
                             to recognize you when you visit our website. It explains what these technologies
                             are and why we use them, as well as your rights to control our use of them.
                         </p>
@@ -115,7 +115,7 @@ const CookiePolicy = () => {
                                         as well as to provide reporting information.
                                     </p>
                                     <p className="text-gray-600">
-                                        Cookies set by the website owner (in this case, PrivacyWeave) are called "first-party cookies".
+                                        Cookies set by the website owner (in this case, PrivacyWeavee) are called "first-party cookies".
                                         Cookies set by parties other than the website owner are called "third-party cookies".
                                         Third-party cookies enable third-party features or functionality to be provided on or through
                                         the website (e.g., advertising, interactive content, and analytics).
@@ -333,7 +333,7 @@ const CookiePolicy = () => {
                                             <strong>Office Location:</strong> Kesariya Complex, 914/8-14, Avinashi Road, Coimbatore Central, Coimbatore, Coimbatore South, Tamil Nadu, India, 641018
                                         </p>
                                         <p>
-                                            <strong>Phone:</strong> <a href="tel:+919087695972" className="text-blue-600 hover:underline">+91-9087695972</a>
+                                            <strong>Phone:</strong> <a href="tel:+916369622184" className="text-blue-600 hover:underline">+91-6369622184</a>
                                         </p>
                                         <p>
                                             <strong>Email:</strong> <a href="mailto:teamsprivacyweavee@gmail.com" className="text-blue-600 hover:underline">teamsprivacyweavee@gmail.com</a>

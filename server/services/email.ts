@@ -342,9 +342,9 @@ export const sendInquiryConfirmationEmail = async (toEmail: string, firstName?: 
     return false;
   }
   const transporter = getTransporter();
-  const subject = 'Thanks for Requesting a Demo - PrivacyWeave';
-  const text = `Hi${firstName ? ' ' + firstName : ''},\n\nThanks for requesting the demo. Our team will review it and get back to you soon.\n\nBest,\nPrivacyWeave Team`;
-  const html = `<p>Hi${firstName ? ' ' + firstName : ''},</p><p>Thanks for requesting the demo. Our team will review it and get back to you soon.</p><p>Best,<br/>PrivacyWeave Team</p>`;
+  const subject = 'Thanks for Requesting a Demo - PrivacyWeavee';
+  const text = `Hi${firstName ? ' ' + firstName : ''},\n\nThanks for requesting the demo. Our team will review it and get back to you soon.\n\nBest,\nPrivacyWeavee Team`;
+  const html = `<p>Hi${firstName ? ' ' + firstName : ''},</p><p>Thanks for requesting the demo. Our team will review it and get back to you soon.</p><p>Best,<br/>PrivacyWeavee Team</p>`;
   try {
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
@@ -369,9 +369,9 @@ export const sendJobApplicationConfirmationEmail = async (toEmail: string, first
     return false;
   }
   const transporter = getTransporter();
-  const subject = 'Thanks for Applying at PrivacyWeave';
-  const text = `Hi${firstName ? ' ' + firstName : ''},\n\nThanks for applying at PrivacyWeave. We will review your application and get back to you soon.\n\nBest,\nPrivacyWeave Team`;
-  const html = `<p>Hi${firstName ? ' ' + firstName : ''},</p><p>Thanks for applying at PrivacyWeave. We will review your application and get back to you soon.</p><p>Best,<br/>PrivacyWeave Team</p>`;
+  const subject = 'Thanks for Applying at PrivacyWeavee';
+  const text = `Hi${firstName ? ' ' + firstName : ''},\n\nThanks for applying at PrivacyWeavee. We will review your application and get back to you soon.\n\nBest,\nPrivacyWeavee Team`;
+  const html = `<p>Hi${firstName ? ' ' + firstName : ''},</p><p>Thanks for applying at PrivacyWeavee. We will review your application and get back to you soon.</p><p>Best,<br/>PrivacyWeavee Team</p>`;
   try {
     await transporter.sendMail({
       from: process.env.EMAIL_USER,

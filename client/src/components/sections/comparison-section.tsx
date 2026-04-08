@@ -50,7 +50,7 @@ const ComparisonSection = () => {
                             COMPARISON
                         </div>
                         <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                            Why PrivacyWeave Stands Out
+                            Why PrivacyWeavee Stands Out
                         </h2>
                     </div>
 

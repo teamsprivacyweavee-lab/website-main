@@ -32,8 +32,8 @@ const Footer = () => {
                 <div className="w-8 h-8 rounded-md bg-white/10 flex items-center justify-center mr-3 transition-all group-hover:bg-white/20">
                   <Phone className="text-white" size={16} />
                 </div>
-                <a href="tel:+919087695972" className="text-gray-300 hover:text-white transition-all">
-                  +91-9087695972
+                <a href="tel:+916369622184" className="text-gray-300 hover:text-white transition-all">
+                  +91-6369622184
                 </a>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <p className="text-gray-400 text-sm font-light">© 2025 PrivacyWeave. All rights reserved.</p>
+            <p className="text-gray-400 text-sm font-light">© 2025 PrivacyWeavee. All rights reserved.</p>
           </div>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 items-center">
             <a href="/privacy-policy" className="text-gray-400 text-sm hover:text-white transition-all">Privacy Policy</a>

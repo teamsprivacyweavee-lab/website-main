@@ -11,7 +11,7 @@ const FlowchartSection = () => {
                     transition={{ duration: 0.5 }}
                     className="text-center mb-6"
                 >
-                    How PrivacyWeave Protects Your Data
+                    How PrivacyWeavee Protects Your Data
                 </motion.h2>
 
                 {/* Scoped styles for the flowchart */}

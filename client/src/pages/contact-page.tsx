@@ -11,7 +11,7 @@ const ContactPage = () => {
           <div className="container mx-auto px-4">
             <h1 className="text-4xl font-bold mb-4 text-white">Contact Us</h1>
             <p className="text-lg max-w-2xl text-white/90">
-              Get in touch with our team of privacy experts to discuss how PrivacyWeave can help your organization.
+              Get in touch with our team of privacy experts to discuss how PrivacyWeavee can help your organization.
             </p>
           </div>
         </div>

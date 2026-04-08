@@ -104,7 +104,7 @@ function AdminOverview() {
         </CardHeader>
         <CardContent>
           <p className="text-sm text-gray-500">
-            This is your admin dashboard for PrivacyWeave. Here you can manage inquiries, 
+            This is your admin dashboard for PrivacyWeavee. Here you can manage inquiries, 
             job applications, and system settings.
           </p>
         </CardContent>

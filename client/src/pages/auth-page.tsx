@@ -98,7 +98,7 @@ const AuthPage = () => {
             <div className="w-12 h-12 rounded-md bg-white flex items-center justify-center">
               <ShieldCheck className="text-primary-dark" size={24} />
             </div>
-            <h2 className="ml-3 text-3xl font-bold">PrivacyWeave</h2>
+            <h2 className="ml-3 text-3xl font-bold">PrivacyWeavee</h2>
           </div>
           <h1 className="text-4xl font-bold mb-6">Welcome to the Future of Data Privacy</h1>
           <p className="text-lg mb-6">
@@ -127,7 +127,7 @@ const AuthPage = () => {
             <CardHeader>
               <CardTitle className="text-2xl">Account Access</CardTitle>
               <CardDescription>
-                Login to your account or register to get started with PrivacyWeave
+                Login to your account or register to get started with PrivacyWeavee
               </CardDescription>
             </CardHeader>
             <CardContent>

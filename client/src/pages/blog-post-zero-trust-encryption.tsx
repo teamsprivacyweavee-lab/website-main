@@ -7,12 +7,12 @@ const BlogPostZeroTrustEncryption = () => {
             <div className="bg-gradient-to-r from-[#0a2c5a] to-[#1e40af] py-20">
                 <div className="container mx-auto px-4">
                     <h1 className="text-3xl md:text-5xl font-bold text-white max-w-5xl">
-                        Zero-Trust Encryption: Why It Matters and How PrivacyWeave Enables It
+                        Zero-Trust Encryption: Why It Matters and How PrivacyWeavee Enables It
                     </h1>
                     <div className="mt-4 flex flex-wrap items-center gap-4 text-blue-100">
                         <div className="flex items-center gap-2">
                             <User size={16} />
-                            <span>Published by <span className="font-semibold">Simran Gupta</span>, Legal Consultant at PrivacyWeave</span>
+                            <span>Published by <span className="font-semibold">Simran Gupta</span>, Legal Consultant at PrivacyWeavee</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <Calendar size={16} />
@@ -58,7 +58,7 @@ const BlogPostZeroTrustEncryption = () => {
                         <li>Continuous monitoring</li>
                     </ol>
 
-                    <h3>How PrivacyWeave Enables It</h3>
+                    <h3>How PrivacyWeavee Enables It</h3>
                     <ul>
                         <li>End-to-end encryption, including in-use protections</li>
                         <li>AI-driven access control and anomaly detection</li>
@@ -84,7 +84,7 @@ const BlogPostZeroTrustEncryption = () => {
                     <p>AI-powered predictions, quantum-ready encryption, unified compliance dashboards, and adaptive policies.</p>
 
                     <h3>Conclusion</h3>
-                    <p>Zero-trust encryption is essential in modern systems. PrivacyWeave makes it practical with end-to-end protections and intelligent controls.</p>
+                    <p>Zero-trust encryption is essential in modern systems. PrivacyWeavee makes it practical with end-to-end protections and intelligent controls.</p>
                 </article>
             </div>
         </div>

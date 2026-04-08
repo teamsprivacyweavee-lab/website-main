@@ -114,7 +114,7 @@ const ContactSection = () => {
                     </div>
                     <h4 className="font-semibold text-lg text-primary-dark">Phone</h4>
                   </div>
-                  <p className="text-neutral-dark/80 pl-14">+91-9087695972</p>
+                  <p className="text-neutral-dark/80 pl-14">+91-6369622184</p>
                 </div>
 
                 <div className="group">
@@ -317,7 +317,7 @@ const ContactSection = () => {
                         </FormControl>
                         <div className="space-y-1 leading-none">
                           <FormLabel className="text-sm text-blue-900">
-                            I consent to PrivacyWeave processing my data for the purpose of contacting me about products and services. <span className="text-primary">*</span>
+                            I consent to PrivacyWeavee processing my data for the purpose of contacting me about products and services. <span className="text-primary">*</span>
                           </FormLabel>
                           <FormMessage className="text-red-500" />
                         </div>
@@ -334,8 +334,8 @@ const ContactSection = () => {
                   </Button>
                   <p className="mt-2 text-sm text-gray-600">
                     Contact us with the mail regarding the demo:{" "}
-                    <a href="mailto:connect@privacyweave.in" className="text-blue-600 hover:underline">
-                      connect@privacyweave.in
+                    <a href="mailto:connect@privacyweavee.in" className="text-blue-600 hover:underline">
+                      connect@privacyweavee.in
                     </a>
                   </p>
                 </form>

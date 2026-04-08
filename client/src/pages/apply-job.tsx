@@ -228,7 +228,7 @@ const ApplyJobPage = () => {
                     className="mr-2 data-[state=checked]:bg-primary data-[state=checked]:border-primary"
                   />
                   <label htmlFor="consent-checkbox" className="text-sm text-neutral-700 select-none">
-                    I consent to PrivacyWeave processing my data for the purpose of contacting me about job opportunities. <span className="text-primary">*</span>
+                    I consent to PrivacyWeavee processing my data for the purpose of contacting me about job opportunities. <span className="text-primary">*</span>
                   </label>
                 </div>
                 <Button

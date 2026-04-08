@@ -338,10 +338,10 @@ export function ChatInterface({ minimized = false, onMinimize }: ChatInterfacePr
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-3">
                 <Avatar className="h-10 w-10">
-                  <AvatarImage src="/images/privacy-weave-logo.png" alt="PrivacyWeave" className="mix-blend-multiply" />
+                  <AvatarImage src="/images/privacy-weave-logo.png" alt="PrivacyWeavee" className="mix-blend-multiply" />
                   <AvatarFallback>PW</AvatarFallback>
                 </Avatar>
-                <SheetTitle className="text-lg" style={{ color: '#154D71' }}>PrivacyWeave Support</SheetTitle>
+                <SheetTitle className="text-lg" style={{ color: '#154D71' }}>PrivacyWeavee Support</SheetTitle>
               </div>
               <SheetClose className="rounded-full p-0">
                 <X className="h-4 w-4" />

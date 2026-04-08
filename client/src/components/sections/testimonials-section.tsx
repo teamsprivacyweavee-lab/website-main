@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    text: "PrivacyWeave's automation capabilities have reduced our compliance workload by 75%. Their AI-driven approach to privacy is truly revolutionary.",
+    text: "PrivacyWeavee's automation capabilities have reduced our compliance workload by 75%. Their AI-driven approach to privacy is truly revolutionary.",
     name: "Dr. Anita Sharma",
     position: "CIO, City Hospital",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80",
@@ -11,7 +11,7 @@ const testimonials = [
     delay: 0
   },
   {
-    text: "The end-to-end encryption solution provided by PrivacyWeave gives us confidence that our patients' data is secure. Implementation was seamless.",
+    text: "The end-to-end encryption solution provided by PrivacyWeavee gives us confidence that our patients' data is secure. Implementation was seamless.",
     name: "Rajesh Kumar",
     position: "CTO, Med Solutions",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150&q=80",
@@ -19,7 +19,7 @@ const testimonials = [
     delay: 0.2
   },
   {
-    text: "PrivacyWeave's AI technology helped us identify privacy risks we weren't even aware of. Their team's expertise has been invaluable to our organization.",
+    text: "PrivacyWeavee's AI technology helped us identify privacy risks we weren't even aware of. Their team's expertise has been invaluable to our organization.",
     name: "Priya Nair",
     position: "CISO, TechVantage",
     image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=150&h=150&q=80",
@@ -76,7 +76,7 @@ const TestimonialsSection = () => {
         >
           <h2 className="text-3xl md:text-4xl font-bold text-primary-dark mb-6">What Our Clients Say</h2>
           <p className="text-lg text-neutral-dark max-w-3xl mx-auto">
-            Hear from our clients about how PrivacyWeave has transformed their approach to data privacy.
+            Hear from our clients about how PrivacyWeavee has transformed their approach to data privacy.
           </p>
         </motion.div>
         

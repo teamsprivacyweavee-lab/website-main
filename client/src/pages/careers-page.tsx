@@ -39,7 +39,7 @@ const CareersPage = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-[#0a2c5a]">
-              Careers at PrivacyWeave
+              Careers at PrivacyWeavee
             </h1>
 
             <p className="text-xl text-[#0a2c5a]/90 max-w-2xl font-light leading-relaxed mb-10">
@@ -176,7 +176,7 @@ const CareersPage = () => {
 
             <div className="mt-6 pt-6 border-t border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-4">
               <p className="text-[#0a2c5a] font-medium">
-                At PrivacyWeave, we're committed to finding passionate individuals who demonstrate potential, regardless of experience level.
+                At PrivacyWeavee, we're committed to finding passionate individuals who demonstrate potential, regardless of experience level.
               </p>
               <Link href="/careers/apply-internship">
                 <Button className="bg-[#0a2c5a] hover:bg-[#0a2c5a]/90 text-[#f8fafc] px-6 rounded-md font-medium">

@@ -131,7 +131,7 @@ export const sendTestWhatsAppMessage = async (): Promise<boolean> => {
   
   try {
     const message = await client.messages.create({
-      body: `*Test Notification from PrivacyWeave*\n\nThis is a test message to verify that WhatsApp notifications are working correctly. If you received this, the service is configured properly!`,
+      body: `*Test Notification from PrivacyWeavee*\n\nThis is a test message to verify that WhatsApp notifications are working correctly. If you received this, the service is configured properly!`,
       from: `whatsapp:${process.env.TWILIO_PHONE_NUMBER}`,
       to: `whatsapp:${process.env.WHATSAPP_RECIPIENT_NUMBER}`
     });

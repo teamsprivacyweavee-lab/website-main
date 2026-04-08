@@ -395,7 +395,7 @@ const SupplyChainPage = () => {
                   Stop Breaches Before They Start
                   <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
-                    with PrivacyWeave
+                    with PrivacyWeavee
                   </span>
                 </h3>
                 <p className="text-xl text-gray-700 mb-8 max-w-4xl mx-auto">

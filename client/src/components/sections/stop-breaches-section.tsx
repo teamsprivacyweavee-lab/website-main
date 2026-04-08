@@ -55,7 +55,7 @@ const StopBreachesSection = () => {
                                     </div>
                                     <div>
                                         <h3 className="text-white font-semibold text-lg mb-2">Phone Number</h3>
-                                        <p className="text-gray-300">+91-9087695972</p>
+                                        <p className="text-gray-300">+91-6369622184</p>
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@ const StopBreachesSection = () => {
                                 Stop Breaches Before They Start
                                 <br />
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
-                                    with PrivacyWeave
+                                    with PrivacyWeavee
                                 </span>
                             </h3>
 

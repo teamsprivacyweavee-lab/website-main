@@ -108,7 +108,7 @@ const IndustrySection = () => {
         >
           <h2 className="text-2xl md:text-3xl font-bold text-[#0a2c5a] mb-4">Industry-Specific Privacy Solutions</h2>
           <p className="text-base text-[#0a2c5a] max-w-2xl mx-auto">
-            PrivacyWeave delivers tailored privacy and data protection frameworks across diverse industries, 
+            PrivacyWeavee delivers tailored privacy and data protection frameworks across diverse industries, 
             implementing cutting-edge cryptographic techniques and privacy-preserving algorithms to meet both regulatory requirements and emerging threats.
           </p>
         </motion.div>

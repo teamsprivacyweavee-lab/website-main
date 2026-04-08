@@ -11,12 +11,12 @@ const AboutPage = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div className="max-w-3xl">
-              <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">About PrivacyWeave</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">About PrivacyWeavee</h1>
               <p className="text-lg md:text-xl mb-5 text-white">
                 We're building the future of data privacy with AI-driven automation and cutting-edge encryption technologies.
               </p>
               <p className="text-base md:text-lg text-white font-medium">
-                At PrivacyWeave, we are dedicated to catering specifically to small, medium, and micro enterprises, helping them comply with complex data privacy regulations without overwhelming their resources.
+                At PrivacyWeavee, we are dedicated to catering specifically to small, medium, and micro enterprises, helping them comply with complex data privacy regulations without overwhelming their resources.
               </p>
               <p className="text-base md:text-lg text-white font-medium mt-4">
                 We understand the unique challenges these businesses face and provide accessible, scalable solutions that grow with their needs.
@@ -26,7 +26,7 @@ const AboutPage = () => {
               <div className="relative">
                 <img
                   src="/images/privacy-weave-logo.png"
-                  alt="PrivacyWeave Logo"
+                  alt="PrivacyWeavee Logo"
                   className="w-64 h-64 mix-blend-luminosity"
                   style={{ filter: 'brightness(1.8) contrast(0.9)' }}
                 />
@@ -73,7 +73,7 @@ const AboutPage = () => {
           >
             <h2 className="text-2xl md:text-3xl font-bold text-deep-blue mb-4">Our Mission & Values</h2>
             <p className="text-base text-dark-gray max-w-2xl mx-auto">
-              At PrivacyWeave, we are driven by a relentless passion for learning and applying cutting-edge advancements to build innovative, privacy-first solutions.
+              At PrivacyWeavee, we are driven by a relentless passion for learning and applying cutting-edge advancements to build innovative, privacy-first solutions.
             </p>
           </motion.div>
 
@@ -277,7 +277,7 @@ const AboutPage = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">Ready to secure your data with PrivacyWeave?</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">Ready to secure your data with PrivacyWeavee?</h2>
             <p className="text-base mb-6 opacity-90 max-w-2xl mx-auto">
               Get in touch with our team to learn how we can help your organization automate privacy compliance and protect sensitive data.
             </p>

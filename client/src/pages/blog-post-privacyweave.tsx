@@ -28,11 +28,11 @@ const BlogPostPrivacyWeave = () => {
                     <h2 className="!mt-0">PRIVACYWEAVE</h2>
 
                     <p>
-                        Beyond Encryption: Designing AI Systems that Never See Sensitive Data – The PrivacyWeave Solution
+                        Beyond Encryption: Designing AI Systems that Never See Sensitive Data – The PrivacyWeavee Solution
                     </p>
 
                     <p>
-                        Published by <strong>Sadhanaa Rameshkumar</strong>, CTO at PrivacyWeave
+                        Published by <strong>Sadhanaa Rameshkumar</strong>, CTO at PrivacyWeavee
                     </p>
 
                     <h3>The Problem with Traditional AI</h3>
@@ -46,9 +46,9 @@ const BlogPostPrivacyWeave = () => {
                         Even if they promise to be careful, you're still taking a big risk.
                     </p>
 
-                    <h3>What Makes PrivacyWeave Different</h3>
+                    <h3>What Makes PrivacyWeavee Different</h3>
                     <p>
-                        PrivacyWeave solves this by creating AI systems that never actually see your sensitive data. Instead of looking at your real
+                        PrivacyWeavee solves this by creating AI systems that never actually see your sensitive data. Instead of looking at your real
                         information, our AI works with special "data fingerprints" that contain all the patterns needed for analysis, but none of your
                         actual private details.
                     </p>
@@ -107,16 +107,16 @@ const BlogPostPrivacyWeave = () => {
 
                     <h3>The Bottom Line</h3>
                     <p>
-                        PrivacyWeave represents a fundamental shift in how AI and privacy work together. Instead of trying to balance privacy against AI capabilities, we've created a solution where stronger
+                        PrivacyWeavee represents a fundamental shift in how AI and privacy work together. Instead of trying to balance privacy against AI capabilities, we've created a solution where stronger
                         privacy actually enables better AI results.
                     </p>
                     <p>
-                        Your data stays private. Your AI gets smarter. Everyone wins. With PrivacyWeave, you don't have to choose between powerful AI insights and protecting sensitive information. You can have both,
+                        Your data stays private. Your AI gets smarter. Everyone wins. With PrivacyWeavee, you don't have to choose between powerful AI insights and protecting sensitive information. You can have both,
                         completely and confidently.
                     </p>
 
                     <p>
-                        Ready to see how PrivacyWeave can transform your organization? Contact us to learn more about privacy-first AI solutions.
+                        Ready to see how PrivacyWeavee can transform your organization? Contact us to learn more about privacy-first AI solutions.
                     </p>
 
                     {/* End image */}

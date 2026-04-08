@@ -168,7 +168,7 @@ const UseCasesPage = () => {
                         Use Cases
                     </h1>
                     <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                        Discover how PrivacyWeave's AI security solutions protect organizations across different industries and use cases.
+                        Discover how PrivacyWeavee's AI security solutions protect organizations across different industries and use cases.
                     </p>
                 </div>
 
@@ -223,7 +223,7 @@ const UseCasesPage = () => {
 
                 {/* Techniques Section - below the movable domains */}
                 <div ref={techniquesSectionRef} className="mt-2 mb-12">
-                    <h2 className="text-2xl font-bold text-white text-center mb-2">Powered by PrivacyWeave</h2>
+                    <h2 className="text-2xl font-bold text-white text-center mb-2">Powered by PrivacyWeavee</h2>
                     <p className="text-center text-white mb-8">“We are offering these tech stacks carried out in any of these domains.”</p>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -412,7 +412,7 @@ const UseCasesPage = () => {
                                 Stop Breaches Before They Start
                                 <br />
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
-                                    with PrivacyWeave
+                                    with PrivacyWeavee
                                 </span>
                             </h3>
 

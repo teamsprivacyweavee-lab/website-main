@@ -565,7 +565,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const jobListings = await storage.getActiveJobListings();
 
       if (jobListings.length > 0) {
-        let response = "We have several open positions at PrivacyWeave:\n\n";
+        let response = "We have several open positions at PrivacyWeavee:\n\n";
 
         jobListings.forEach((job, index) => {
           response += `${index + 1}. ${job.title} (${job.location})\n`;
@@ -581,9 +581,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
     // Check for company-related questions
     else if (lowerMessage.includes('company') ||
       lowerMessage.includes('about') ||
-      lowerMessage.includes('privacyweave') ||
+      lowerMessage.includes('privacyweavee') ||
       lowerMessage.includes('who are you')) {
-      return "PrivacyWeave is a leading data privacy automation company. We specialize in AI-driven privacy solutions that help organizations protect user data, comply with regulations, and build trust. Our platform leverages advanced machine learning to automate privacy tasks, reduce compliance costs, and provide analytics for better decision-making.";
+      return "PrivacyWeavee is a leading data privacy automation company. We specialize in AI-driven privacy solutions that help organizations protect user data, comply with regulations, and build trust. Our platform leverages advanced machine learning to automate privacy tasks, reduce compliance costs, and provide analytics for better decision-making.";
     }
 
     // Check for service-related questions
@@ -592,7 +592,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       lowerMessage.includes('offering') ||
       lowerMessage.includes('solution') ||
       lowerMessage.includes('what do you do')) {
-      return "PrivacyWeave offers a comprehensive suite of data privacy solutions:\n\n" +
+      return "PrivacyWeavee offers a comprehensive suite of data privacy solutions:\n\n" +
         "1. Privacy Management: Automated data mapping, consent management, and privacy policy generation\n" +
         "2. AI Privacy Framework: Privacy-preserving AI development tools and compliance checks\n" +
         "3. Data Encryption: End-to-end encryption solutions for sensitive data\n" +
@@ -617,7 +617,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
     // Default response
     else {
-      return "Thank you for reaching out to PrivacyWeave! I'm here to help with any questions about our company, services, or career opportunities. How can I assist you today?";
+      return "Thank you for reaching out to PrivacyWeavee! I'm here to help with any questions about our company, services, or career opportunities. How can I assist you today?";
     }
   }
 

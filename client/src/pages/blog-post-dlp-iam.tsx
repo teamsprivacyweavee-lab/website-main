@@ -12,7 +12,7 @@ const BlogPostDLPIAM = () => {
                     <div className="mt-4 flex flex-wrap items-center gap-4 text-blue-100">
                         <div className="flex items-center gap-2">
                             <User size={16} />
-                            <span>Published by <span className="font-semibold">Jiya Mittal</span>, founder at PrivacyWeave</span>
+                            <span>Published by <span className="font-semibold">Jiya Mittal</span>, founder at PrivacyWeavee</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <Calendar size={16} />

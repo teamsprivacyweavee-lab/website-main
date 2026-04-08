@@ -83,7 +83,7 @@ const BlogPage = () => {
             <div className="bg-gradient-to-r from-[#0a2c5a] to-[#1e40af] py-20">
                 <div className="container mx-auto px-4 text-center">
                     <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-                        PrivacyWeave Blog
+                        PrivacyWeavee Blog
                     </h1>
                     <p className="text-xl md:text-2xl text-white max-w-3xl mx-auto">
                         Insights, updates, and thought leadership on AI privacy, data protection, and compliance automation
@@ -105,7 +105,7 @@ const BlogPage = () => {
                                 <span className="text-white text-sm font-medium">FEATURED BLOG</span>
                             </div>
                             <CardTitle className="text-2xl md:text-3xl leading-tight text-white">
-                                Beyond Encryption: Designing AI Systems that Never See Sensitive Data – The PrivacyWeave Solution
+                                Beyond Encryption: Designing AI Systems that Never See Sensitive Data – The PrivacyWeavee Solution
                             </CardTitle>
                         </CardHeader>
                         <CardContent className="p-6">
@@ -115,14 +115,14 @@ const BlogPage = () => {
                                         <User size={16} />
                                         <span className="font-medium">Sadhanaa Rameshkumar</span>
                                         <span className="text-gray-500">•</span>
-                                        <span className="text-gray-500">CTO at PrivacyWeave</span>
+                                        <span className="text-gray-500">CTO at PrivacyWeavee</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-600">
                                         <Calendar size={16} />
                                         <span>Published on 29 August 2025</span>
                                     </div>
                                     <p className="text-gray-700 leading-relaxed">
-                                        Discover how PrivacyWeave's innovative approach goes beyond traditional encryption
+                                        Discover how PrivacyWeavee's innovative approach goes beyond traditional encryption
                                         to create AI systems that can process data without ever seeing sensitive information.
                                         Learn about our groundbreaking privacy-preserving AI framework that maintains data
                                         utility while ensuring complete privacy compliance.
@@ -176,7 +176,7 @@ const BlogPage = () => {
                                         <User size={16} />
                                         <span className="font-medium">Jiya Mittal</span>
                                         <span className="text-gray-500">•</span>
-                                        <span className="text-gray-500">Founder at PrivacyWeave</span>
+                                        <span className="text-gray-500">Founder at PrivacyWeavee</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-600">
                                         <Calendar size={16} />
@@ -236,7 +236,7 @@ const BlogPage = () => {
                                         <User size={16} />
                                         <span className="font-medium">Kumutha Nandhini B</span>
                                         <span className="text-gray-500">•</span>
-                                        <span className="text-gray-500">AI/ML engineer at PrivacyWeave</span>
+                                        <span className="text-gray-500">AI/ML engineer at PrivacyWeavee</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-600">
                                         <Calendar size={16} />
@@ -296,7 +296,7 @@ const BlogPage = () => {
                                         <User size={16} />
                                         <span className="font-medium">Rahul S</span>
                                         <span className="text-gray-500">•</span>
-                                        <span className="text-gray-500">AI/ML Engineering Intern at PrivacyWeave</span>
+                                        <span className="text-gray-500">AI/ML Engineering Intern at PrivacyWeavee</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-600">
                                         <Calendar size={16} />
@@ -356,7 +356,7 @@ const BlogPage = () => {
                                         <User size={16} />
                                         <span className="font-medium">Simran Gupta</span>
                                         <span className="text-gray-500">•</span>
-                                        <span className="text-gray-500">Legal Consultant at PrivacyWeave</span>
+                                        <span className="text-gray-500">Legal Consultant at PrivacyWeavee</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-600">
                                         <Calendar size={16} />
@@ -414,7 +414,7 @@ const BlogPage = () => {
                                         <User size={16} />
                                         <span className="font-medium">Simran Gupta</span>
                                         <span className="text-gray-500">•</span>
-                                        <span className="text-gray-500">Legal Consultant at PrivacyWeave</span>
+                                        <span className="text-gray-500">Legal Consultant at PrivacyWeavee</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-600">
                                         <Calendar size={16} />
@@ -462,7 +462,7 @@ const BlogPage = () => {
                                 <span className="text-white text-sm font-medium">NEW BLOG</span>
                             </div>
                             <CardTitle className="text-2xl md:text-3xl leading-tight text-white">
-                                Zero-Trust Encryption: Why It Matters and How PrivacyWeave Enables It
+                                Zero-Trust Encryption: Why It Matters and How PrivacyWeavee Enables It
                             </CardTitle>
                         </CardHeader>
                         <CardContent className="p-6">
@@ -472,14 +472,14 @@ const BlogPage = () => {
                                         <User size={16} />
                                         <span className="font-medium">Simran Gupta</span>
                                         <span className="text-gray-500">•</span>
-                                        <span className="text-gray-500">Legal Consultant at PrivacyWeave</span>
+                                        <span className="text-gray-500">Legal Consultant at PrivacyWeavee</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-600">
                                         <Calendar size={16} />
                                         <span>Published on 8 September 2025</span>
                                     </div>
                                     <p className="text-gray-700 leading-relaxed">
-                                        The "never trust, always verify" model and how PrivacyWeave implements it in practice.
+                                        The "never trust, always verify" model and how PrivacyWeavee implements it in practice.
                                     </p>
                                 </div>
                                 <div className="flex flex-col items-center gap-3">
@@ -530,7 +530,7 @@ const BlogPage = () => {
                                         <User size={16} />
                                         <span className="font-medium">Simran Gupta</span>
                                         <span className="text-gray-500">•</span>
-                                        <span className="text-gray-500">Legal Consultant at PrivacyWeave</span>
+                                        <span className="text-gray-500">Legal Consultant at PrivacyWeavee</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-600">
                                         <Calendar size={16} />
@@ -588,7 +588,7 @@ const BlogPage = () => {
                                         <User size={16} />
                                         <span className="font-medium">Simran Gupta</span>
                                         <span className="text-gray-500">•</span>
-                                        <span className="text-gray-500">Legal Consultant at PrivacyWeave</span>
+                                        <span className="text-gray-500">Legal Consultant at PrivacyWeavee</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-600">
                                         <Calendar size={16} />
@@ -646,7 +646,7 @@ const BlogPage = () => {
                                         <User size={16} />
                                         <span className="font-medium">Balaganesh S</span>
                                         <span className="text-gray-500">•</span>
-                                        <span className="text-gray-500">AI/ML Engineering Intern at PrivacyWeave</span>
+                                        <span className="text-gray-500">AI/ML Engineering Intern at PrivacyWeavee</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-gray-600">
                                         <Calendar size={16} />
