@@ -72,7 +72,7 @@ const HeroSection = () => {
                 <span className="text-blue-400">Privacy</span>
                 <span className="text-white"> Weave</span>
               </span>
-              <div className="mt-0.5 h-[13px] overflow-hidden relative w-[220px]">
+              <div className="mt-1 h-[17px] overflow-hidden relative w-[260px]">
                 <AnimatePresence mode="wait">
                   <motion.span
                     key={currentTagline}
@@ -80,7 +80,7 @@ const HeroSection = () => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -6 }}
                     transition={{ duration: 0.32, ease: "easeInOut" }}
-                    className="absolute left-0 text-[9px] font-semibold tracking-widest uppercase text-white whitespace-nowrap"
+                    className="absolute left-0 text-[12px] font-semibold tracking-widest uppercase text-white whitespace-nowrap"
                   >
                     {heroTaglines[currentTagline]}
                   </motion.span>

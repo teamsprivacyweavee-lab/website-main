@@ -42,7 +42,7 @@ const Logo: React.FC<LogoProps> = ({ className = '', width = 240, height = 90, s
       </span>
 
       {showTagline && (
-        <div className="pl-2 mt-0.5 h-[14px] overflow-hidden relative w-full">
+        <div className="pl-2 mt-1 h-[18px] overflow-hidden relative w-full">
           <AnimatePresence mode="wait">
             <motion.span
               key={index}
@@ -50,7 +50,7 @@ const Logo: React.FC<LogoProps> = ({ className = '', width = 240, height = 90, s
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -6 }}
               transition={{ duration: 0.35, ease: "easeInOut" }}
-              className="absolute left-0 text-[10px] font-semibold tracking-widest uppercase text-white whitespace-nowrap"
+              className="absolute left-0 text-[13px] font-semibold tracking-widest uppercase text-white whitespace-nowrap"
             >
               {taglines[index]}
             </motion.span>
