@@ -12,11 +12,15 @@ import {
 
 const aimlSpecializations = [
   "Custom ML Model Development",
+  "AI-Powered Privacy Compliance",
   "Natural Language Processing",
+  "Data Privacy Infrastructure",
   "Computer Vision Solutions",
+  "Automated Consent Management",
   "Predictive Analytics & Forecasting",
-  "AI Automation & Orchestration",
+  "Privacy-Preserving Machine Learning",
   "Generative AI Integration",
+  "Real-Time Data Protection",
   "MLOps & Model Deployment",
   "Federated Learning Infrastructure",
 ];
@@ -53,7 +57,7 @@ const HeroSection = () => {
                 <span className="text-white"> Weave</span>
               </span>
               <span className="text-[9px] font-semibold tracking-widest uppercase text-blue-300/70 mt-0.5">
-                AI &amp; ML Solutions
+                Privacy Handling · AI &amp; ML Solutions
               </span>
             </Link>
 
@@ -185,7 +189,7 @@ const HeroSection = () => {
           >
             <div className="inline-flex items-center px-6 py-3 bg-white/10 backdrop-blur-sm text-blue-400 rounded-full text-sm font-medium mb-8 gap-2 border border-white/20">
               <Brain size={16} className="text-blue-400" />
-              <span>AI &amp; ML Solutions · Privacy Infrastructure · Security</span>
+              <span>Privacy Handling · AI &amp; ML Solutions · Security Infrastructure</span>
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">

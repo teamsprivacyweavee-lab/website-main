@@ -23,7 +23,7 @@ const Logo: React.FC<LogoProps> = ({ className = '', width = 240, height = 90, s
       </span>
       {showTagline && (
         <span className="pl-2 text-[10px] font-semibold tracking-widest uppercase text-blue-500/80 mt-0.5">
-          AI &amp; ML Solutions
+          Privacy Handling · AI &amp; ML Solutions
         </span>
       )}
     </div>

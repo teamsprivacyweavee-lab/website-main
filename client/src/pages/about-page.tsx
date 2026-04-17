@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { ShieldCheck, Lock, CheckCircle, Award, Users, Building } from "lucide-react";
+import { ShieldCheck, Lock, CheckCircle, Award, Users, Building, Brain, Cpu, Eye, BarChart3, Zap, Sparkles, GitBranch, Shield, FlaskConical, Code2, Database, Network } from "lucide-react";
 
 const AboutPage = () => {
   return (
@@ -60,6 +60,166 @@ const AboutPage = () => {
       </section>
 
 
+
+      {/* AI & ML Expertise Section */}
+      <section className="py-20 bg-gradient-to-b from-[#070752] to-[#0a1a6e]">
+        <div className="container mx-auto px-4">
+          <motion.div
+            className="text-center mb-14"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-blue-400/30 bg-blue-500/10 text-blue-300 text-sm font-medium mb-6">
+              <Cpu size={14} />
+              <span>AI &amp; ML · Privacy Handling · Security Intelligence</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Where Privacy Meets{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+                Artificial Intelligence
+              </span>
+            </h2>
+            <p className="text-base text-gray-300 max-w-3xl mx-auto leading-relaxed">
+              PrivacyWeave is not just a privacy company — we are an AI & ML solutions firm with privacy as a core design principle. We undertake the full spectrum of AI and machine learning projects, embedding data protection and compliance into every layer of intelligent system we build.
+            </p>
+          </motion.div>
+
+          {/* What We Do - Two Pillars */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-14">
+            <motion.div
+              className="rounded-xl border border-blue-500/30 bg-blue-500/10 backdrop-blur-sm p-7"
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.55 }}
+            >
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-10 h-10 rounded-lg bg-blue-500/20 border border-blue-400/30 flex items-center justify-center">
+                  <Brain size={20} className="text-blue-400" />
+                </div>
+                <h3 className="text-xl font-bold text-white">AI &amp; ML Project Delivery</h3>
+              </div>
+              <p className="text-gray-300 text-sm leading-relaxed mb-5">
+                We take on AI and machine learning projects of all scales — from rapid proof-of-concept models to full production deployment. Our team brings deep expertise across the entire ML lifecycle.
+              </p>
+              <ul className="space-y-2.5">
+                {[
+                  "Custom model training & fine-tuning on your data",
+                  "Natural Language Processing & Generative AI integration",
+                  "Computer Vision pipelines for real-world applications",
+                  "Predictive analytics, forecasting & anomaly detection",
+                  "AI automation, orchestration & intelligent agents",
+                  "MLOps pipelines for continuous model delivery",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
+                    <CheckCircle size={14} className="text-blue-400 mt-0.5 shrink-0" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+
+            <motion.div
+              className="rounded-xl border border-purple-500/30 bg-purple-500/10 backdrop-blur-sm p-7"
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.55, delay: 0.15 }}
+            >
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-10 h-10 rounded-lg bg-purple-500/20 border border-purple-400/30 flex items-center justify-center">
+                  <Shield size={20} className="text-purple-400" />
+                </div>
+                <h3 className="text-xl font-bold text-white">Privacy Handling &amp; Compliance</h3>
+              </div>
+              <p className="text-gray-300 text-sm leading-relaxed mb-5">
+                Every AI system we build is architected with privacy-first principles — from data ingestion to model inference. We embed compliance, consent, and data governance directly into the intelligence layer.
+              </p>
+              <ul className="space-y-2.5">
+                {[
+                  "GDPR, HIPAA, DPDP Act & SOC 2 compliance automation",
+                  "Privacy-preserving ML with federated & differential privacy",
+                  "Real-time PII detection, masking & data anonymization",
+                  "AI supply chain audit — every API, plugin & data flow",
+                  "Consent management & user data rights automation",
+                  "Explainable AI (XAI) for regulatory-ready decision models",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
+                    <CheckCircle size={14} className="text-purple-400 mt-0.5 shrink-0" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          </div>
+
+          {/* AI/ML Service Cards */}
+          <motion.div
+            className="mb-14"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+          >
+            <h3 className="text-2xl font-bold text-white text-center mb-8">
+              Our AI &amp; ML Capabilities
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {[
+                { icon: Brain, label: "Custom ML Models", color: "text-blue-400", bg: "bg-blue-500/10 border-blue-500/25" },
+                { icon: Sparkles, label: "Generative AI", color: "text-purple-400", bg: "bg-purple-500/10 border-purple-500/25" },
+                { icon: Eye, label: "Computer Vision", color: "text-cyan-400", bg: "bg-cyan-500/10 border-cyan-500/25" },
+                { icon: Code2, label: "NLP Solutions", color: "text-emerald-400", bg: "bg-emerald-500/10 border-emerald-500/25" },
+                { icon: BarChart3, label: "Predictive Analytics", color: "text-amber-400", bg: "bg-amber-500/10 border-amber-500/25" },
+                { icon: Zap, label: "AI Automation", color: "text-orange-400", bg: "bg-orange-500/10 border-orange-500/25" },
+                { icon: GitBranch, label: "MLOps", color: "text-rose-400", bg: "bg-rose-500/10 border-rose-500/25" },
+                { icon: Shield, label: "Privacy-Preserving ML", color: "text-indigo-400", bg: "bg-indigo-500/10 border-indigo-500/25" },
+                { icon: Database, label: "Data Engineering", color: "text-teal-400", bg: "bg-teal-500/10 border-teal-500/25" },
+                { icon: FlaskConical, label: "AI R&D / PoC", color: "text-pink-400", bg: "bg-pink-500/10 border-pink-500/25" },
+                { icon: Network, label: "AI Supply Chain Audit", color: "text-sky-400", bg: "bg-sky-500/10 border-sky-500/25" },
+                { icon: Cpu, label: "Edge AI Deployment", color: "text-lime-400", bg: "bg-lime-500/10 border-lime-500/25" },
+              ].map(({ icon: Icon, label, color, bg }) => (
+                <div
+                  key={label}
+                  className={`rounded-lg border ${bg} p-4 flex flex-col items-center text-center gap-2 hover:scale-105 transition-transform duration-200`}
+                >
+                  <Icon size={22} className={color} />
+                  <span className="text-white text-xs font-medium leading-snug">{label}</span>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+
+          {/* Why Privacy + AI Together */}
+          <motion.div
+            className="rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm p-8 text-center"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <h3 className="text-xl font-bold text-white mb-3">Why We Combine Privacy &amp; AI</h3>
+            <p className="text-gray-300 text-sm leading-relaxed max-w-3xl mx-auto">
+              Most AI companies build first and patch for privacy later. We do the opposite. At PrivacyWeave, privacy engineering and AI/ML development are the same discipline. The result is intelligent systems that are more trustworthy, more compliant, and more defensible — built for a world where regulators, customers, and partners demand both performance and accountability from AI.
+            </p>
+            <div className="flex flex-wrap justify-center gap-6 mt-8">
+              {[
+                { val: "12+", desc: "AI/ML Service Areas" },
+                { val: "100%", desc: "Privacy-First Architecture" },
+                { val: "End-to-End", desc: "From PoC to Production" },
+                { val: "Multi-Reg", desc: "GDPR · HIPAA · DPDP · SOC 2" },
+              ].map((s) => (
+                <div key={s.desc} className="text-center">
+                  <div className="text-2xl font-bold text-blue-400">{s.val}</div>
+                  <div className="text-xs text-gray-400 mt-1">{s.desc}</div>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+        </div>
+      </section>
 
       {/* Mission & Values Section */}
       <section className="py-16 bg-[#F6F4F0]">
