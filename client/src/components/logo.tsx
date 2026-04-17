@@ -50,7 +50,7 @@ const Logo: React.FC<LogoProps> = ({ className = '', width = 240, height = 90, s
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -6 }}
               transition={{ duration: 0.35, ease: "easeInOut" }}
-              className="absolute left-0 text-[10px] font-semibold tracking-widest uppercase text-blue-500/80 whitespace-nowrap"
+              className="absolute left-0 text-[10px] font-semibold tracking-widest uppercase text-white whitespace-nowrap"
             >
               {taglines[index]}
             </motion.span>

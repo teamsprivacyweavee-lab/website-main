@@ -80,7 +80,7 @@ const HeroSection = () => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -6 }}
                     transition={{ duration: 0.32, ease: "easeInOut" }}
-                    className="absolute left-0 text-[9px] font-semibold tracking-widest uppercase text-blue-300/70 whitespace-nowrap"
+                    className="absolute left-0 text-[9px] font-semibold tracking-widest uppercase text-white whitespace-nowrap"
                   >
                     {heroTaglines[currentTagline]}
                   </motion.span>
