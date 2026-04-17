@@ -219,12 +219,42 @@ const HeroSection = () => {
               <span>Privacy Handling · AI &amp; ML Solutions · Security Infrastructure</span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-4">
               Every AI system is one prompt {" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-400">
                 away from catastrophic leak
               </span>
             </h1>
+
+            {/* AI/ML Eye-catching second headline */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.35, ease: "easeOut" }}
+              className="mb-6"
+            >
+              <div className="flex items-center justify-center gap-3 mb-3">
+                <div className="h-px flex-1 max-w-[80px] bg-gradient-to-r from-transparent to-purple-500/50" />
+                <Sparkles size={14} className="text-purple-400" />
+                <div className="h-px flex-1 max-w-[80px] bg-gradient-to-l from-transparent to-purple-500/50" />
+              </div>
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">
+                <span className="text-white">We build </span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400">
+                  AI &amp; ML systems
+                </span>
+                <span className="text-white"> that are </span>
+                <span className="relative inline-block">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-300">
+                    smarter, faster
+                  </span>
+                </span>
+                <span className="text-white"> — and </span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-400">
+                  impossible to breach.
+                </span>
+              </h2>
+            </motion.div>
 
             {/* Dynamic AI/ML specialization cycling text */}
             <div className="flex items-center justify-center gap-3 mb-8">
