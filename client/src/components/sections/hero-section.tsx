@@ -25,15 +25,31 @@ const aimlSpecializations = [
   "Federated Learning Infrastructure",
 ];
 
+const heroTaglines = [
+  "Privacy Handling · AI & ML Solutions",
+  "Intelligent Data Protection",
+  "Secure AI Infrastructure",
+  "Privacy-First ML Engineering",
+  "Compliance & Security Automation",
+  "Trustworthy AI · Zero Data Leaks",
+];
+
 const HeroSection = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [currentSpec, setCurrentSpec] = useState(0);
+  const [currentTagline, setCurrentTagline] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    const specInterval = setInterval(() => {
       setCurrentSpec((prev) => (prev + 1) % aimlSpecializations.length);
     }, 2400);
-    return () => clearInterval(interval);
+    const taglineInterval = setInterval(() => {
+      setCurrentTagline((prev) => (prev + 1) % heroTaglines.length);
+    }, 2600);
+    return () => {
+      clearInterval(specInterval);
+      clearInterval(taglineInterval);
+    };
   }, []);
 
   return (
@@ -56,9 +72,20 @@ const HeroSection = () => {
                 <span className="text-blue-400">Privacy</span>
                 <span className="text-white"> Weave</span>
               </span>
-              <span className="text-[9px] font-semibold tracking-widest uppercase text-blue-300/70 mt-0.5">
-                Privacy Handling · AI &amp; ML Solutions
-              </span>
+              <div className="mt-0.5 h-[13px] overflow-hidden relative w-[220px]">
+                <AnimatePresence mode="wait">
+                  <motion.span
+                    key={currentTagline}
+                    initial={{ opacity: 0, y: 6 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -6 }}
+                    transition={{ duration: 0.32, ease: "easeInOut" }}
+                    className="absolute left-0 text-[9px] font-semibold tracking-widest uppercase text-blue-300/70 whitespace-nowrap"
+                  >
+                    {heroTaglines[currentTagline]}
+                  </motion.span>
+                </AnimatePresence>
+              </div>
             </Link>
 
             {/* Desktop Navigation */}
