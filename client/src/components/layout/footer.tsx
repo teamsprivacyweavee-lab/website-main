@@ -71,7 +71,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <p className="text-gray-400 text-sm font-light">© 2025 PrivacyWeavee. All rights reserved.</p>
+            <p className="text-gray-400 text-sm font-light">© 2026 PrivacyWeavee. All rights reserved.</p>
           </div>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 items-center">
             <a href="/privacy-policy" className="text-gray-400 text-sm hover:text-white transition-all">Privacy Policy</a>
