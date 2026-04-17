@@ -1,8 +1,8 @@
 import { Link } from "wouter";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Shield, ChevronDown, Menu } from "lucide-react";
-import { useState } from "react";
+import { Shield, ChevronDown, Menu, Brain, Cpu, Layers, Sparkles } from "lucide-react";
+import { useState, useEffect } from "react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,8 +10,27 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+const aimlSpecializations = [
+  "Custom ML Model Development",
+  "Natural Language Processing",
+  "Computer Vision Solutions",
+  "Predictive Analytics & Forecasting",
+  "AI Automation & Orchestration",
+  "Generative AI Integration",
+  "MLOps & Model Deployment",
+  "Federated Learning Infrastructure",
+];
+
 const HeroSection = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [currentSpec, setCurrentSpec] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSpec((prev) => (prev + 1) % aimlSpecializations.length);
+    }, 2400);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section className="bg-gradient-to-b from-black to-[#070752] relative overflow-hidden min-h-screen">
@@ -28,10 +47,13 @@ const HeroSection = () => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
-            <Link href="/" className="flex items-center">
-              <span className="text-2xl font-bold">
+            <Link href="/" className="flex flex-col items-start">
+              <span className="text-2xl font-bold leading-none">
                 <span className="text-blue-400">Privacy</span>
                 <span className="text-white"> Weave</span>
+              </span>
+              <span className="text-[9px] font-semibold tracking-widest uppercase text-blue-300/70 mt-0.5">
+                AI &amp; ML Solutions
               </span>
             </Link>
 
@@ -162,19 +184,40 @@ const HeroSection = () => {
             className="mb-8"
           >
             <div className="inline-flex items-center px-6 py-3 bg-white/10 backdrop-blur-sm text-blue-400 rounded-full text-sm font-medium mb-8 gap-2 border border-white/20">
-
-              <span>Smart Privacy. Smarter Business.</span>
+              <Brain size={16} className="text-blue-400" />
+              <span>AI &amp; ML Solutions · Privacy Infrastructure · Security</span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-8">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
               Every AI system is one prompt {" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-400">
                 away from catastrophic leak
               </span>
             </h1>
 
+            {/* Dynamic AI/ML specialization cycling text */}
+            <div className="flex items-center justify-center gap-3 mb-8">
+              <div className="h-px w-12 bg-gradient-to-r from-transparent to-blue-400/60"></div>
+              <div className="flex items-center gap-2 px-4 py-2 rounded-full border border-blue-400/30 bg-blue-500/10 backdrop-blur-sm min-w-[320px] justify-center">
+                <Cpu size={13} className="text-blue-300 shrink-0" />
+                <AnimatePresence mode="wait">
+                  <motion.span
+                    key={currentSpec}
+                    initial={{ opacity: 0, y: 8 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -8 }}
+                    transition={{ duration: 0.35, ease: "easeInOut" }}
+                    className="text-sm font-medium text-blue-200 tracking-wide"
+                  >
+                    {aimlSpecializations[currentSpec]}
+                  </motion.span>
+                </AnimatePresence>
+              </div>
+              <div className="h-px w-12 bg-gradient-to-l from-transparent to-blue-400/60"></div>
+            </div>
+
             <p className="text-xl text-gray-300 mb-12 max-w-4xl mx-auto font-light leading-relaxed">
-              Privacy Weave is the intelligent privacy infrastructure that keeps your AI secure, compliant, and trustworthy.
+              PrivacyWeave delivers end-to-end AI &amp; ML solutions — from custom model development to intelligent privacy infrastructure — keeping your AI systems secure, compliant, and trustworthy.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">

@@ -40,7 +40,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
-            <Logo width={200} height={60} className="lg:w-[220px] lg:h-[65px] w-[200px] h-[55px] brightness-0 invert" />
+            <Logo width={200} height={65} showTagline className="lg:w-[220px] lg:h-[70px] w-[200px] h-[60px] brightness-0 invert" />
           </Link>
         </div>
 
