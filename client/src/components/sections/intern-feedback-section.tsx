@@ -7,7 +7,7 @@ const feedbacks = [
         photo: "/user_photos/PRIYADHARSHINI.jpeg",
         ratings: { mentorship: 5 },
         feedback:
-            "My internship at Privacy Weave was a highly professional and enriching experience. The program was well-structured, combining hands-on projects with real-world privacy tech applications. I gained valuable insights into AI, data privacy, and adaptive technologies. The mentorship and collaborative environment made the learning journey impactful and rewarding.",
+            "My internship at Privacy Weavee was a highly professional and enriching experience. The program was well-structured, combining hands-on projects with real-world privacy tech applications. I gained valuable insights into AI, data privacy, and adaptive technologies. The mentorship and collaborative environment made the learning journey impactful and rewarding.",
     },
     {
         name: "Hemanthkumar",
@@ -23,7 +23,7 @@ const feedbacks = [
         photo: "/user_photos/SHRESHATH SIVAJI.jpg",
         ratings: { task: 4 },
         feedback:
-            "The internship at Privacy Weave was professional, enriching, and well-structured for learning. The program offered a perfect blend of theoretical knowledge and hands-on practice, especially in the fields of AI, Data Privacy, and cutting-edge technologies like Adaptive Tokenization and Federated Learning.",
+            "The internship at Privacy Weavee was professional, enriching, and well-structured for learning. The program offered a perfect blend of theoretical knowledge and hands-on practice, especially in the fields of AI, Data Privacy, and cutting-edge technologies like Adaptive Tokenization and Federated Learning.",
     },
     {
         name: "Gokul P",
