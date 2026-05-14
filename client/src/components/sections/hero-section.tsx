@@ -70,7 +70,7 @@ const HeroSection = () => {
             <Link href="/" className="flex flex-col items-start">
               <span className="text-2xl font-bold leading-none">
                 <span className="text-blue-400">Privacy</span>
-                <span className="text-white"> Weave</span>
+                <span className="text-white"> Weavee</span>
               </span>
               <div className="mt-1 h-[17px] overflow-hidden relative w-[260px]">
                 <AnimatePresence mode="wait">
