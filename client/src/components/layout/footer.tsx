@@ -13,7 +13,7 @@ const Footer = () => {
             <Link href="/" className="flex items-center mb-6">
               <span className="text-2xl font-bold">
                 <span className="text-blue-400">Privacy</span>
-                <span className="text-white"> Weave</span>
+                <span className="text-white"> Weavee</span>
               </span>
             </Link>
             <p className="mb-6 text-gray-300 font-light">
