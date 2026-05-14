@@ -42,7 +42,7 @@ const AttackSimulationSection = () => {
                             <span className="danger">⚠️ VULNERABILITY FOUND:</span> Bot ready to expose 50,000+ emails
                         </div>
                         <div style={{ marginTop: '1rem' }}>
-                            <span className="success">✓ Privacy Weave:</span> Attack blocked. Data protected.
+                            <span className="success">✓ Privacy Weavee:</span> Attack blocked. Data protected.
                         </div>
                     </div>
                 </div>
