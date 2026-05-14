@@ -109,7 +109,7 @@ const FeaturesSection = () => {
             Built for Every Privacy Challenge
           </h2>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-            Privacy Weave is a security shield that sits between your AI and users blocking data leaks, preventing jailbreaks, and ensuring compliance in real-time.
+            Privacy Weavee is a security shield that sits between your AI and users blocking data leaks, preventing jailbreaks, and ensuring compliance in real-time.
           </p>
         </div>
 
