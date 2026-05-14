@@ -64,7 +64,7 @@ const ComparisonSection = () => {
                             className="relative p-8 rounded-2xl bg-gradient-to-br from-green-600/20 to-emerald-600/20 backdrop-blur-sm border-2 border-green-400/30 hover:scale-105 transition-transform duration-300"
                         >
                             <div className="absolute top-4 left-4 text-green-400 font-semibold text-sm uppercase tracking-wider">
-                                Privacy Weave
+                                Privacy Weavee
                             </div>
 
                             <div className="mt-12 mb-8 h-48 flex items-center justify-center">
